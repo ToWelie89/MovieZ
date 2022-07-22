@@ -1,3 +1,4 @@
 backend/debug.log
-backend/cache/cache.js
+backend/cache/cache.json
 /node_modules
+frontend/dist
