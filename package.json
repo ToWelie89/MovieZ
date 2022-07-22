@@ -1,6 +1,6 @@
 {
   "name": "moviez",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a Node.js application made for reading movies from files you have stored on your computer, to present them in a nice user friendly interface",
   "scripts": {
     "start": "node --inspect backend/index.js",
