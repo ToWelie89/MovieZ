@@ -72,6 +72,12 @@ body #outerWrapper {
   /* Track */
   /* Handle */
 }
+body #outerWrapper.moviePageVisible {
+  padding-top: 0px;
+}
+body #outerWrapper.moviePageVisible #innerWrapper {
+  overflow-y: hidden;
+}
 body #outerWrapper::-webkit-scrollbar {
   width: 20px;
   padding: 10px;
@@ -88,9 +94,6 @@ body #outerWrapper::-webkit-scrollbar-thumb {
 body #outerWrapper #innerWrapper {
   padding: 0px;
   height: calc(100% - 210px);
-}
-body #outerWrapper #innerWrapper.moviePageVisible {
-  overflow-y: hidden;
 }
 body #outerWrapper #innerWrapper #content {
   position: relative;

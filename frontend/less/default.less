@@ -56,7 +56,13 @@ body {
         background-color: rgb(17, 17, 17);
         margin: 0 auto;
         box-shadow: 0 0 15px black;
-        padding-top: 20px;
+        padding-top: 0px;
+
+        &.moviePageVisible {
+            #innerWrapper {
+                overflow-y: hidden;
+            }
+        }
 
         /* width */
         &::-webkit-scrollbar {
@@ -76,21 +82,16 @@ body {
             border-radius: 10px;
             padding: 10px;
         }
-        
-        
 
         #innerWrapper {
             padding: 0px;
-            height: calc(100% - 210px);
-
-            &.moviePageVisible {
-                overflow-y: hidden;
-            }
+            height: calc(100% - 190px);
 
             #content {
                 position: relative;
                 #movieLibrary {
                     padding: 0px 60px;
+                    padding-top: 20px;
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-around;

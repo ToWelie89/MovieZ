@@ -41,7 +41,7 @@ const clickMovieBoxListener = (ev, id) => {
 
     //document.querySelector('#movieTrailer iframe').contentWindow.document.querySelector('.ytp-watermark').style.display = 'none';
 
-    document.getElementById('innerWrapper').classList.add('moviePageVisible');
+    document.getElementById('outerWrapper').classList.add('moviePageVisible');
     [...document.querySelectorAll('#movieLibrary, #moviePage')].forEach(x => x.classList.add('slideToLeft'));
 };
 
