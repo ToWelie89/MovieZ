@@ -1,0 +1,10 @@
+@import "variables";
+
+@import "default";
+
+@media only screen and (min-width: @small) and (max-width: @lt-medium) { // SMALL
+    @import "small/small";
+}
+@media only screen and (min-width: @medium) and (max-width: @lt-large) { // MEDIUM
+    @import "medium/medium";
+}

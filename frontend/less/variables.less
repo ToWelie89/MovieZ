@@ -1,0 +1,24 @@
+// Major breakpoints
+//@small  : 480px;    /* 480px / 16 */
+//@medium : 875px;    /* 768px / 16 */
+//@large  : 1024px;    /* 1024px / 16 */
+//@xlarge  : 1300px;    /* 1024px / 16 */
+
+@small  : 30em;    /* 480px / 16 */
+@medium : 55em;    /* 875px / 16 */
+@large  : 64em;    /* 1024px / 16 */
+@xlarge  : 81em;    /* 1300px / 16 */
+
+// To use as max-width values
+@lt-small  : (@small  - 0.01em); /* Lower than Small */
+@lt-medium : (@medium - 0.01em); /* Lower than Medium */
+@lt-large  : (@large  - 0.01em); /* Lower than Large */
+@lt-xlarge  : (@xlarge  - 0.01em); /* Lower than Large */
+
+// FONTS
+
+@font-face {
+    font-family: 'BeautySchoolDropout';
+    src: url('../fonts/BeautySchoolDropout-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/BeautySchoolDropout-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}

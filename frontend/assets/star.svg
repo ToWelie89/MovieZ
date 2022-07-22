@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 491 470" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="246.602" y1="7.338" x2="246.602" y2="461.184" id="gradient-0" gradientTransform="matrix(0.993879, 0, 0, 0.993879, 1.509497, 0.044917)">
+      <stop offset="0" style="stop-color: rgb(255, 227, 41);"/>
+      <stop offset="1" style="stop-color: rgb(200, 179, 45);"/>
+    </linearGradient>
+    <filter id="inner-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 0 0 10 0.18 rgba(0,0,0,0.7)">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="0.36"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.7)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path d="M 246.602 7.338 L 305.587 177.032 L 485.203 180.692 L 342.042 289.228 L 394.066 461.184 L 246.602 358.57 L 99.138 461.184 L 151.162 289.228 L 8.001 180.692 L 187.617 177.032 Z" style="stroke-linecap: round; fill: url(#gradient-0); filter: url(#inner-shadow-filter-0);" bx:shape="star 246.602 258.218 250.88 250.88 0.4 5 1@b48f12d6"/>
+</svg>
